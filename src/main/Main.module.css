@@ -3,6 +3,9 @@
     background-color: cornflowerblue;
 }
 
+.mainContainer {
+    justify-content: space-between;
+}
 
 .greetings {
     width: 300px;

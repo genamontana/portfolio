@@ -2,6 +2,8 @@
     height: 80px;
     background-color: bisque;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+}
+.navContainer{
+    justify-content: flex-end;
 }
