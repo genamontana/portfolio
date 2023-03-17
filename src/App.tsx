@@ -3,7 +3,9 @@ import './App.css';
 import {Header} from './header/Header';
 import {Main} from './main/Main';
 import {Skills} from './skills/Skills';
-import {MyProjects} from './myProject/MyProjects';
+import {MyProjects} from './myProjects/MyProjects';
+import {Freelance} from './freelance/Freelance';
+import {Contacts} from './Contacts/Contacts';
 
 function App() {
     return (
@@ -12,6 +14,8 @@ function App() {
             <Main/>
             <Skills/>
             <MyProjects/>
+            <Freelance/>
+            <Contacts/>
         </div>
     );
 }

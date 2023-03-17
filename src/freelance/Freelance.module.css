@@ -1,0 +1,12 @@
+.freelanceBlock{
+    background-color: chocolate;
+    height: 20vh;
+}
+.freelanceContainer{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttonFreelance{
+    margin-bottom: 20px;
+}
