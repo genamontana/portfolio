@@ -14,7 +14,7 @@ export const Project = (props: ProjectType) => {
                 <a className={sButton.button}
                     href={'##'}>Смотреть</a>
             </div>
-            <h3>{props.title}</h3>
+            <h3 className={s.title}>{props.title}</h3>
             <div className={s.description}>{props.description}</div>
         </div>
     );

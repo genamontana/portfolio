@@ -1,14 +1,19 @@
-.freelanceBlock{
+.freelanceBlock {
     background-color: chocolate;
     padding: 50px 0;
 
 }
-.freelanceContainer{
+
+.freelanceContainer {
     flex-direction: column;
     justify-content: space-between;
-
 }
 
-.buttonFreelance{
+.title{
+    margin-bottom: 25px;
+    background-color: burlywood;
+}
+
+.buttonFreelance {
     margin-bottom: 20px;
 }

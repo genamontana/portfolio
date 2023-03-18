@@ -16,6 +16,13 @@
     background-position: center;
 }
 
+.title{
+    margin: 5px 5px 5px 10px;
+    background-color: #c97171;
+}
 
 .description {
+    margin: 0 5px 5px 10px;
+    padding-bottom: 30px;
+    background-color: #c97171;
 }
