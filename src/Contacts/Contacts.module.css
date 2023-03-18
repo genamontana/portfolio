@@ -9,6 +9,7 @@
 
 .title{
     background-color: khaki;
+    margin-bottom: 25px;
 }
 
 .form{
@@ -17,7 +18,17 @@
     border: 1px solid;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin-bottom: 20px;
+}
 
+.name{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.surname{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.text{
+    height: 100%;
 }
