@@ -6,14 +6,14 @@ export const Footer = () => {
     return (
         <div className={s.footer}>
             <div className={`${sContainer.container} ${s.footerContainer}`}>
-                <h2>Голубов Геннадий</h2>
+                <h2 className={s.title}>Голубов Геннадий</h2>
                 <div className={s.socialContainer}>
                     <div className={s.social}></div>
                     <div className={s.social}></div>
                     <div className={s.social}></div>
                     <div className={s.social}></div>
                 </div>
-                <span>Все права защищены</span>
+                <span>© 2023 Все права защищены</span>
             </div>
         </div>
     );
