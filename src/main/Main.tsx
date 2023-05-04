@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Main.module.css'
+import ava from '../foto/avatar.png'
 import sContainer from '../common/styles/Container.module.css'
 
 export const Main = () => {
@@ -11,7 +12,10 @@ export const Main = () => {
                     <h1>Меня зовут Геннадий Голубов.</h1>
                     <p>Я front-end разработчик</p>
                 </div>
-                <div className={s.photo}></div>
+                <div className={s.photo}>
+                    <img className={s.ava}
+                        src={ava} alt="ava"/>
+                </div>
             </div>
         </div>
     );

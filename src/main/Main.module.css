@@ -1,6 +1,6 @@
 .mainBlock {
     height: 100vh;
-    background-color: cornflowerblue;
+    background-color: #f5df4e;
 }
 
 .mainContainer {
@@ -15,5 +15,10 @@
 .photo {
     width: 300px;
     height: 400px;
-    background-color: rgba(105, 105, 105, 0.5);
+    background-color: rgba(105, 105, 105, 0);
+}
+.ava{
+    background: #f5df4e;
+    width: 200px;
+    height: 400px;
 }
