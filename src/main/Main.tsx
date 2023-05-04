@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Main.module.css'
-import ava from '../foto/avatar.png'
+import ava from '../foto/ava_b&w.jpeg'
 import sContainer from '../common/styles/Container.module.css'
 
 export const Main = () => {
