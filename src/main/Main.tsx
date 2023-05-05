@@ -13,8 +13,10 @@ export const Main = () => {
                     <p>Я front-end разработчик</p>
                 </div>
                 <div className={s.photo}>
+
                     <img className={s.ava}
                         src={ava} alt="ava"/>
+
                 </div>
             </div>
         </div>
