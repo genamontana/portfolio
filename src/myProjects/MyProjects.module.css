@@ -6,15 +6,24 @@
 .myProjectsContainer {
     justify-content: flex-start;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
-.title{
+
+.title {
     background-color: floralwhite;
     margin-bottom: 25px;
 }
-.myProjects{
+
+.myProjects {
     border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 880px) {
+    .myProjects {
+        justify-content: center;
+    }
 }

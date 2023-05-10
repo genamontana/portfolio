@@ -12,8 +12,8 @@ export const Contacts = () => {
                     <input type="text" className={s.name}/>
                     <input type="text" className={s.surname}/>
                     <textarea className={s.text}></textarea>
+                    <button type={'submit'} className={sButton.button}>Отправить</button>
                 </form>
-                <a className={sButton.button} href={'##'}>Отправить</a>
             </div>
         </div>
     );
