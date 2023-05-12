@@ -8,8 +8,8 @@
 }
 
 .greetings {
-    width: 300px;
-    background-color: rgba(105, 105, 105, 0.5);
+    width: 400px;
+
 }
 
 .photo {
@@ -25,3 +25,43 @@
     border: 10px solid #ddd;
     border-radius: 50%;
 }
+
+.greetings span{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* Делал на CSS печатный текс (получилось не очень, скачал библиотеку Typed
+
+.greetings p {
+    font-family: 'Raleway', sans-serif;
+    width: 23ch;
+    overflow: hidden;
+    font-size: 20px;
+    white-space: nowrap;
+    border-right: 4px solid orange;
+    animation: printed-text 6s steps(23),
+    flashing-border .75s step-end infinite;
+}
+
+@keyframes flashing-border {
+    0% {
+        border-color: orange;
+    }
+
+    50% {
+        border-color: transparent;
+    }
+
+    100% {
+        border-color: orange;
+    }
+}
+
+@keyframes printed-text {
+    from {
+        width: 0;
+    }
+}*/
