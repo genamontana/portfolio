@@ -9,7 +9,7 @@
 
 .greetings {
     width: 400px;
-
+    background: #dddddd;
 }
 
 .photo {
@@ -26,15 +26,14 @@
     border-radius: 50%;
 }
 
-.greetings span{
+.greetings span {
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
 }
 
 
-
-/* Делал на CSS печатный текс (получилось не очень, скачал библиотеку Typed
-
+/*
+Делал на CSS печатный текс (получилось не очень, скачал библиотеку Typed
 .greetings p {
     font-family: 'Raleway', sans-serif;
     width: 23ch;

@@ -5,7 +5,9 @@ import sContainer from '../common/styles/Container.module.css'
 import {useTyped} from './useTyped';
 
 export const Main = () => {
-    const { ref }  = useTyped(["Я фронтенд разработчик.", "Буду всегда рад с Вами связатся."])
+    const { ref }  = useTyped(
+        ["Я фронтенд разработчик.", "Буду всегда рад с Вами связатся."]
+    )
 
     return (
         <div className={s.mainBlock}>
@@ -18,7 +20,6 @@ export const Main = () => {
                 <div className={s.photo}>
                     <img className={s.ava}
                         src={ava} alt="ava"/>
-
                 </div>
             </div>
         </div>
