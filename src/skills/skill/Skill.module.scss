@@ -1,0 +1,49 @@
+@import "../../common/styles/sass/variables";
+
+.skill {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+  padding: 5px 0;
+  @media screen and (max-width: 600px) {
+    margin: 5px 0;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+
+    .imgIcon {
+      width: 100%;
+    }
+  }
+
+  .title {
+    font-family: $fontRusso;
+    background-color: $primaryColor;
+    margin: 10px 0;
+    font-size: clamp(1rem, 0.9184rem + 0.4145vw, 1.25rem);
+  }
+
+  .description {
+    font-size: clamp(0.875rem, 0.8342rem + 0.2073vw, 1rem);
+    font-family: $fontSource;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    @media screen and (max-width: 600px) {
+      margin-bottom: 5px;
+      padding-bottom: 0;
+    }
+  }
+}
+
+
+
+
+
+
+

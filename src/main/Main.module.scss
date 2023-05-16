@@ -1,0 +1,86 @@
+@import "../common/styles/sass/variables.scss";
+
+.mainBlock {
+  height: 100vh;
+  background-color: $primaryColor;
+
+  .innerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0 50px;
+
+    .greetings {
+      width: clamp(19.6875rem, 15.6072rem + 20.7254vw, 32.1875rem);
+
+
+      .hello {
+        font-family: $fontSource;
+        font-size: clamp(1rem, 0.796rem + 1.0363vw, 1.625rem);
+        font-weight: 300;
+      }
+
+      h1 {
+        font-family: $fontSource;
+        font-size: clamp(1.125rem, 0.8394rem + 1.4508vw, 2rem);
+        font-weight: 300;
+      }
+      .front{
+        font-family: $fontRusso;
+        font-size: clamp(1rem, 0.796rem + 1.0363vw, 1.625rem);
+      }
+    }
+    .photo {
+      background-color: rgba(105, 105, 105, 0);
+
+      .ava {
+        background: #f5df4e;
+        width: clamp(13.4375rem, 9.6632rem + 19.171vw, 25rem);
+        height: clamp(13.4375rem, 9.6632rem + 19.171vw, 25rem);
+        border: 10px solid #ddd;
+        border-radius: 50%;
+      }
+    }
+    @media screen and (max-width: 710px) {
+      flex-direction: column-reverse;
+      padding-right: 10px;
+    }
+
+  }
+}
+
+
+
+/*
+Делал на CSS печатный текс (получилось не очень, скачал библиотеку Typed
+.greetings p {
+    font-family: 'Raleway', sans-serif;
+    width: 23ch;
+    overflow: hidden;
+    font-size: 20px;
+    white-space: nowrap;
+    border-right: 4px solid orange;
+    animation: printed-text 6s steps(23),
+    flashing-border .75s step-end infinite;
+}
+
+@keyframes flashing-border {
+    0% {
+        border-color: orange;
+    }
+
+    50% {
+        border-color: transparent;
+    }
+
+    100% {
+        border-color: orange;
+    }
+}
+
+@keyframes printed-text {
+    from {
+        width: 0;
+    }
+}*/
