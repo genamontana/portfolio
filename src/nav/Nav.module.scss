@@ -1,0 +1,72 @@
+@import "../common/styles/sass/variables.scss";
+
+.blur {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(2px);
+
+  .navContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.4s;
+
+    .navHeader {
+      padding: 10px;
+      font-size: 2rem;
+      color: white;
+      border-bottom: 1px solid #ff4b00;
+      width: 100%;
+      text-align: center;
+    }
+
+    ul {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      li {
+        display: flex;
+        align-items: center;
+
+        a {
+          color: white;
+          text-decoration: none;
+          display: inline;
+          font-size: 1.3rem;
+        }
+      }
+
+
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      right: 0;
+      left: 0;
+    }
+
+  }
+
+}
+
+.nav {
+  position: absolute;
+  right: -1000px;
+  top: 80px;
+  bottom: 0;
+  width: 400px;
+  background: black;
+  opacity: 0.8;
+  font-family: 'Russo One', sans-serif;
+}
+
+.navActive {
+  right: 0;
+}

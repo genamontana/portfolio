@@ -1,0 +1,100 @@
+@import "../common/styles/sass/variables";
+
+.header {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 50;
+  background-color: $primaryColor;
+  display: flex;
+  align-items: center;
+
+  .navContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+    justify-content: space-between;
+
+    .information {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 30;
+
+      .logo {
+        height: 50px;
+        margin-right: 40px;
+        @media screen and (max-width: 490px) {
+          margin-right:5px;
+        }
+      }
+
+      .iconTel {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url('../common/icons/tel.svg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .tel {
+        color: $textColor;
+        padding-left: 10px;
+        text-decoration: none;
+        font-family: $fontRusso;
+        @media screen and (max-width: 490px) {
+          padding-left: 5px;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .burgerBtn {
+      z-index: 30;
+      width: 24px;
+      height: 20px;
+      margin-left: 20px;
+      position: relative;
+      cursor: pointer;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 24px;
+        background-color: black;
+        height: 2px;
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 24px;
+        background-color: black;
+        height: 2px;
+      }
+
+      span {
+        position: absolute;
+        top: 9px;
+        width: 24px;
+        background-color: black;
+        height: 2px;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+
+

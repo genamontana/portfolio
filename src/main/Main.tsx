@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Main.module.css'
-import ava from '../foto/ava_b&w.jpeg'
-import sContainer from '../common/styles/Container.module.css'
+import ava from '../assets/image/mainFoto/ava_b&w.jpeg'
+import sContainer from '../common/styles/Container.module.scss'
 import {useTyped} from './useTyped';
 
 export const Main = () => {
