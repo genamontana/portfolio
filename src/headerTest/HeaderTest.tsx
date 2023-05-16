@@ -15,6 +15,7 @@ export const HeaderTest = () => {
     const openCloseMenu = ()=>{
         setMenuActive(!menuActive)
     }
+
     return (
         <nav className={s.nav}>
             <div className={s.burgerBtn} onClick={openCloseMenu}>

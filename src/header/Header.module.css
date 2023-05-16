@@ -1,9 +1,38 @@
-.header{
+
+.header {
     height: 80px;
     background-color: #f5df4e;
     display: flex;
     align-items: center;
 }
-.navContainer{
-    justify-content: flex-end;
+
+.navContainer {
+    justify-content: space-between;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 40px;
+}
+
+.iconTel {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../common/icons/tel.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tel {
+    color: black;
+    padding-left: 10px;
 }
