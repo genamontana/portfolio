@@ -1,12 +1,14 @@
 .freelanceBlock {
     background-color: #ddd;
     padding: 50px 0;
+    background-position: center;
+    background-size: cover;
 }
 
 .freelanceContainer {
-    flex-direction: column;
-    justify-content: space-between;
     text-align: center;
+    background: #ffffff69;
+    padding: 10px
 }
 
 .title {

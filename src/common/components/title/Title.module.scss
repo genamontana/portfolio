@@ -10,15 +10,18 @@
 
     span {
       background-color: $primaryColor;
+      letter-spacing: clamp(0.25rem, 0.0868rem + 0.829vw, 0.75rem);
     }
 
   }
 
   h2 {
-    font-size: 32px;
+    margin-top: clamp(0.3125rem, 0.1697rem + 0.7254vw, 0.75rem);
+    font-size: clamp(1.125rem, 0.8394rem + 1.4508vw, 2rem);
     text-align: center;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 1.2;
+    letter-spacing: clamp(0rem, -0.0612rem + 0.3109vw, 0.1875rem);
     font-family: $fontSource;
 
     &::before {

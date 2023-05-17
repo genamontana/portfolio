@@ -22,11 +22,11 @@ export const MyProjects = () => {
                 <Title span={'Мои работы'} title={'Некоторые из моих последних проектов'}/>
                 <div className={s.myProjects}>
                     <Project style={socialNetwork}
-                             title={'Название проекта'}
-                             description={'Краткое описание'}/>
+                             title={'Social Network'}
+                             description={'Реализация социальной сети на TS с использованием Redux'}/>
                     <Project style={todoList}
-                        title={'Название проекта'}
-                             description={'Краткое описание'}/>
+                             title={'Todo List'}
+                             description={'Мой Todo List на Type Script с применением к нему Material UI'}/>
                 </div>
             </div>
         </div>

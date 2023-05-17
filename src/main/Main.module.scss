@@ -26,22 +26,25 @@
         font-size: clamp(1.125rem, 0.8394rem + 1.4508vw, 2rem);
         font-weight: 300;
       }
-      .front{
+
+      .front {
         font-family: $fontRusso;
         font-size: clamp(1rem, 0.796rem + 1.0363vw, 1.625rem);
       }
     }
+
     .photo {
       background-color: rgba(105, 105, 105, 0);
 
       .ava {
         background: #f5df4e;
-        width: clamp(13.4375rem, 9.6632rem + 19.171vw, 25rem);
-        height: clamp(13.4375rem, 9.6632rem + 19.171vw, 25rem);
+        width: clamp(18.75rem, 14.6697rem + 20.7254vw, 31.25rem);
+        height: clamp(18.75rem, 14.6697rem + 20.7254vw, 31.25rem);
         border: 10px solid #ddd;
         border-radius: 50%;
       }
     }
+
     @media screen and (max-width: 710px) {
       flex-direction: column-reverse;
       padding-right: 10px;
@@ -49,7 +52,6 @@
 
   }
 }
-
 
 
 /*
