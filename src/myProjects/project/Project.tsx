@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Project.module.scss';
-import sButton from '../../common/styles/Button.module.css'
+import sButton from '../../common/styles/Button.module.scss'
 
 type ProjectType = {
     style: { backgroundImage: string }

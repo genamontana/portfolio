@@ -1,9 +1,9 @@
 import React from 'react';
 import sContainer from '../common/styles/Container.module.scss';
 import s from './Freelance.module.scss'
-import sButton from '../common/styles/Button.module.css'
+import sButton from '../common/styles/Button.module.scss'
 import {Title} from '../common/components/title/Title';
-import bgFreelance from '../assets/image/freelance/freelance.jpg'
+import bgFreelance from '../assets/image/freelance/freelance.webp'
 
 export const Freelance = () => {
 

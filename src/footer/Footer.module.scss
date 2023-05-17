@@ -1,0 +1,51 @@
+@import "../common/styles/sass/variables";
+
+.footer {
+  background-color: #f5df4e;
+  padding: 10px 0;
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    .title {
+      margin-bottom: 15px;
+      font-family: $fontRusso;
+      font-size: clamp(1.125rem, 0.8802rem + 1.2435vw, 1.875rem);;
+    }
+
+    .socialContainer {
+      width: 280px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      padding: 0 20px;
+
+      .social {
+        width: clamp(1.25rem, 0.638rem + 3.1088vw, 3.125rem);
+        height: clamp(1.25rem, 0.638rem + 3.1088vw, 3.125rem);
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    span{
+      font-family: $fontSource;
+      font-weight: 300;
+      color: $orangeColor;
+      font-size: clamp(0.875rem, 0.7934rem + 0.4145vw, 1.125rem);
+    }
+  }
+
+}
+
+
+
+
+
+
+
